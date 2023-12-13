@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    float: right;
+}
+
+.box {
+    border-radius: 90px;
+    margin: 20px;
+    width: 118px;
+    height: 34px;
+    position: relative;
+}
+  
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.greenyellow {
+    background: greenyellow;
+}
+
+.font {
+    font-size: 25px;
+    text-align: center;
+}
+
+.km {
+    font-size: 150px;
+    height: 100%;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    position: absolute;
+}
