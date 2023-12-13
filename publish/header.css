@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #D9D9D9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+}
+
+.dash {
+    margin: 0px 10px;
+}
+
+.nav > div  {
+    font-size: x-large;
+}
+
+.select {
+    background-color: #BDBDBD;
+    padding: 7px;
+    border-radius: 18px;
+}
