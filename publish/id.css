@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id_input {
+    width: 700px;
+}
+
+.id_input, .id_button {
+    padding: 30px;
+    font-size: xx-large;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.id_label {
+    margin: 10px;
+    font-size: xx-large;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+}
