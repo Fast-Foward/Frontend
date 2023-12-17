@@ -1,0 +1,39 @@
+.table-container {
+  margin: 0px 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: x-large;
+}
+
+th,
+td {
+  padding: 30px;
+  text-align: center;
+}
+
+/* 데이터 행에만 스타일 적용 */
+tr:not(:first-child) td {
+  /* 배경색을 투명으로 설정하거나 원하는 색상으로 설정 */
+  background-color: transparent; /* 배경색을 투명으로 설정 */
+}
+
+td:first-child {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+td:last-child {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+tr:first-child th {
+  border-bottom: 1px solid #000;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #d9d9d9;
+}

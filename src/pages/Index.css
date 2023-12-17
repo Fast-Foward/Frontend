@@ -1,0 +1,49 @@
+.container {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    z-index: 1;
+  }
+  
+  .box {
+    border-radius: 90px;
+    margin: 20px;
+    width: 118px;
+    height: 34px;
+    position: relative;
+    border: 3px solid black;
+  }
+  
+  .red {
+    background: red;
+  }
+  
+  .orange {
+    background: orange;
+  }
+  
+  .yellow {
+    background: yellow;
+  }
+  
+  .greenyellow {
+    background: greenyellow;
+  }
+  
+  .font {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .km {
+    font-size: 150px;
+    height: 100%;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    position: absolute;
+  }

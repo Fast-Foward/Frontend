@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background-color: #d9d9d9;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 175px;
+}
+
+.dash {
+  margin: 0px 10px;
+  font-size: x-large;
+}
+
+.size {
+  font-size: x-large;
+}
+
+.select {
+  background-color: #bdbdbd;
+  padding: 7px;
+  border-radius: 18px;
+}
